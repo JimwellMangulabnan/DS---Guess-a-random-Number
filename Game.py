@@ -21,6 +21,10 @@ while True:
         user_guess = int(input("Make a Guess"))
     except ValueError:
         print("Please type a number!!!")
+        continue
     else:
-        
+        if user_guess == random_number:
+            print("Yey! you got it!")
+            break
+        elif user_guess
 
