@@ -1,6 +1,11 @@
+print("*********  PROGRAMMED BY  ********")
+print("***** JIMWELL L. MANGULABNAN *****")
+print("********** BSCOE 2-2 *************")
+print()
+
 import random
 
-top_of_range = input("Type a number: ")
+top_of_range = input("Please Type a number for range: ")
 
 if top_of_range.isdigit():
     top_of_range = int(top_of_range)
@@ -18,7 +23,7 @@ guesess = 0
 while True:
     guesess += 1
     try:
-        user_guess = int(input("Make a Guess"))
+        user_guess = int(input("Make a Guess number: "))
     except ValueError:
         print("Please type a number!!!")
         continue
@@ -33,4 +38,13 @@ while True:
 
 print("You got it in ", guesess, "guesses!!!")
 
+
+print("""
+        ===================================
+        |                                 |
+        |           Thank You             |
+        |    For Using The Program!!!     |
+        |                                 |
+        ===================================  
+ """)
 
