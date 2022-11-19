@@ -12,4 +12,9 @@ else:
     print("please type a Number next time! ")
     quit()
 
+random_number = random.randint(0, top_of_range)
+guesess = 0
+
+while True:
+    guesess += 1
     
