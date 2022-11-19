@@ -17,4 +17,10 @@ guesess = 0
 
 while True:
     guesess += 1
-    
+    try:
+        user_guess = int(input("Make a Guess"))
+    except ValueError:
+        print("Please type a number!!!")
+    else:
+        
+
